@@ -79,10 +79,10 @@ body {
     margin: 20px;
 }
 .cardsList .listHeader {
-    background: black;
+    background: url(../img/wallpaper-blk.jpg) repeat;
     color: #fefefe;
     font-weight: 700;
-    padding: 10px 0;
+    padding: 10px;
     width: 100%;
     margin-bottom: 20px;
 }
@@ -263,3 +263,4 @@ body {
 }
 .reveal {background: url(../img/bg.svg) repeat;
 background-color: white!important;}
+.singleCard {margin-bottom: 10px;}
