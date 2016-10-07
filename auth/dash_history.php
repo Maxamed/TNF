@@ -11,6 +11,34 @@
     <li>   <a href="#" alt="logout">logout</a> </li>
   </ul>
 </header>
+<div class="content">
+
+  <div class="row cardsList historyStyle">
+    <form class="" action="index.html" method="post">
+      <div class="row collapse">
+        <div class="small-9 columns">
+            <select>
+              <optgroup label="Select Match Date">
+                <option value="10-13-2016">10-13-2016 06:30</option>
+                <option value="10-13-2016">10-13-2016 06:30</option>
+                <option value="10-13-2016">10-13-2016 06:30</option>
+                <option value="10-13-2016">10-13-2016 06:30</option>
+              </optgroup>
+            </select>
+        </div>
+      </div>
+    </form>
+    <div class="listHeader" style="">
+        <div>Match History for Game Day - 10-13-2016 06:30</div>
+    </div>
+
+    <div class="row ">
+
+    </div>
+
+  </div>
+
+</div>
 
     <?php include '../partials/modal.php'; ?>
     <script src="../js/vendor/jquery.js"></script>

@@ -10,8 +10,7 @@
     <li>  <a href="admin_match.php" >Setup a Match</a></li>
     <li>   <a href="#" alt="logout">logout</a> </li>
   </ul>
-</header>
-
+</header> 
     <?php include '../partials/modal.php'; ?>
     <script src="../js/vendor/jquery.js"></script>
     <script src="../js/vendor/foundation.min.js"></script>

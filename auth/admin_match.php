@@ -13,8 +13,9 @@
 </header>
 
 <!-- modal create a match content -->
-  <div class="row">
-    <div class="medium-8 columns auth-plain center">
+
+  <div class="row" style="margin-top:20px">
+    <div class="medium-6 columns auth-plain center" style="border:4px solid white;padding:20px;background: url(../img/bg.svg) repeat;background-color: white!important;">
       <div class="signup-panel left-solid">
         <!-- create  match-->
             <div id="contactForm" class="">
@@ -55,10 +56,50 @@
         <!-- create match-->
       </div>
     </div>
+  </div>
+<!-- modal create a match content -->
 
-   </div>
-
-<!-- modal create a match content --> 
+<!-- current matchs -->
+<div class="row cardsList">
+  <div class="listHeader column" style="">
+      <div>Current Matchs</div>
+  </div>
+  <!-- cards -->
+  <div class="medium-3 column"  >
+    <div class="card">
+      <div class="image">
+        <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
+        <span class="title">Thursday Night Football</span>
+      </div>
+      <div class="content">
+        <p>Thursday night football Match @ SportsCity. kick off: 8.20</p>
+        <p>Players In: 20</p>
+      </div>
+      <div class="action">
+        <a href='#'>Edit Match</a>
+      </div>
+    </div>
+  </div>
+  <!-- card end -->
+  <!-- cards -->
+  <div class="medium-3 column" style="">
+    <div class="card">
+      <div class="image">
+        <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
+        <span class="title">Thursday Night Football</span>
+      </div>
+      <div class="content">
+        <p>Thursday night football Match @ SportsCity. kick off: 8.20</p>
+        <p>Players In: 20</p>
+      </div>
+      <div class="action">
+        <a href='#'>Edit Match</a>
+      </div>
+    </div>
+  </div>
+  <!-- card end -->
+</div>
+<!-- current matchs -->
     <script src="../js/vendor/jquery.js"></script>
     <script src="../js/vendor/foundation.min.js"></script>
     <script src="../js/vendor/datepicker.js"></script>

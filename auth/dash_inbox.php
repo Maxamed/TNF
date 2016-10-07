@@ -88,82 +88,68 @@
 </div>
 <div class="row cardsList">
   <div class="listHeader" style="">
-      <div>Transfer In</div>
+      <div>RSVP</div>
   </div>
+
   <!-- users -->
   <div class="medium-3 columns end singleCard">
     <div class="card">
+              <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
       <div class="content">
-        <span class="title">Robert Frost</span>
+        <span class="title">Adbullahi Hussien</span>
         <p>Position: RM</p>
+        <p>L:4-W:9-D:6</p>
+        <p>Scored:10 - Assists:4</p>
       </div>
       <div class="action">
         <a href='#' >In<span class="fi-check"></span></a>
         <a href='#' >Not In<span class="fi-x"></span></a>
       </div>
-    </div>
-  </div>
-  <!-- users -->
-  <!-- users -->
-  <div class="medium-3 columns end singleCard">
-    <div class="card">
-      <div class="content">
-        <span class="title">Robert Frost</span>
-        <p>Position: RM</p>
-      </div>
-      <div class="action">
-        <a href='#' >In<span class="fi-check"></span></a>
-        <a href='#' >Not In<span class="fi-x"></span></a>
       </div>
     </div>
-  </div>
   <!-- users -->
-  <!-- users -->
-  <div class="medium-3 columns end singleCard">
-    <div class="card">
-      <div class="content">
-        <span class="title">Robert Frost</span>
-        <p>Position: RM</p>
+
+    <!-- users -->
+    <div class="medium-3 columns end singleCard">
+      <div class="card">
+                <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
+        <div class="content">
+          <span class="title">Adbullahi Hussien</span>
+          <p>Position: RM</p>
+          <p>L:4-W:9-D:6</p>
+          <p>Scored:10 - Assists:4</p>
+        </div>
+        <div class="action">
+          <a href='#' >In<span class="fi-check"></span></a>
+          <a href='#' >Not In<span class="fi-x"></span></a>
+        </div>
+        </div>
       </div>
-      <div class="action">
-        <a href='#' >In<span class="fi-check"></span></a>
-        <a href='#' >Not In<span class="fi-x"></span></a>
-      </div>
-    </div>
-  </div>
-  <!-- users -->
-  <!-- users -->
-  <div class="medium-3 columns end singleCard">
-    <div class="card">
-      <div class="content">
-        <span class="title">Robert Frost</span>
-        <p>Position: RM</p>
-      </div>
-      <div class="action">
-        <a href='#' >In<span class="fi-check"></span></a>
-        <a href='#' >Not In<span class="fi-x"></span></a>
-      </div>
-    </div>
-  </div>
-  <!-- users -->
-  <!-- users -->
-  <div class="medium-3 columns end singleCard">
-    <div class="card">
-      <div class="content">
-        <span class="title">Robert Frost</span>
-        <p>Position: RM</p>
-      </div>
-      <div class="action">
-        <a href='#' >In<span class="fi-check"></span></a>
-        <a href='#' >Not In<span class="fi-x"></span></a>
-      </div>
-    </div>
-  </div>
-  <!-- users -->
+    <!-- users -->
+      <!-- users -->
+      <div class="medium-3 columns end singleCard">
+        <div class="card">
+                  <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
+          <div class="content">
+            <span class="title">Adbullahi Hussien</span>
+            <p>Position: RM</p>
+            <p>L:4-W:9-D:6</p>
+            <p>Scored:10 - Assists:4</p>
+          </div>
+          <div class="action">
+            <a href='#' >In<span class="fi-check"></span></a>
+            <a href='#' >Not In<span class="fi-x"></span></a>
+          </div>
+          </div>
+        </div>
+      <!-- users -->
+
 </div>
     <?php include '../partials/modal.php'; ?>
     <script src="../js/vendor/jquery.js"></script>
-    <script src="../js/vendor/foundation.min.js"></script> 
+    <script src="../js/vendor/foundation.min.js"></script>
+    <script src="../js/vendor/datepicker.js"></script>
+    <script src="../js/vendor/multiselect.js"></script>
     <script src="../js/app.js"></script>
   </body>
 </html>

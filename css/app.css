@@ -76,7 +76,9 @@ body {
     left: 0;
 }
 .cardsList {
-    margin: 20px;
+
+  padding:10px 0;
+
 }
 .cardsList .listHeader {
     background: url(../img/wallpaper-blk.jpg) repeat;
@@ -264,3 +266,26 @@ body {
 .reveal {background: url(../img/bg.svg) repeat;
 background-color: white!important;}
 .singleCard {margin-bottom: 10px;}
+/* Styles for search results */
+.singleCard img {
+  width: 8rem;
+  display: block;
+  margin: 2rem auto;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px #888888; }
+.results {
+  margin-top: 50px;
+}
+.results .search-results {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.results img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.historyStyle {    color:black; font-size: 1rem;}
+.historyStyle  .innerBody {border:2px solid black; background: url(../img/bg.svg) repeat;background-color: white!important;}

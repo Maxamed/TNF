@@ -31,31 +31,31 @@
     <table>
   <thead>
     <tr>
-      <th width="100">Pitch name</th>
+      <th width="150">Pitch name</th>
       <th>Pitch address</th>
-      <th width="150">Pitch Lat</th>
-      <th width="150">Pitch Long</th>
+      <th width="50">default</th>
+      <th width="150">Action</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody> <form>
     <tr>
       <td>Sports City</td>
       <td>12 hasssa road, al barsha , JVC</td>
-      <td>1.44483300000002</td>
-      <td>25.2624725</td>
+      <td><label><input type="radio"  name="optradio"></label></td>
+      <td><a href="#">Delete</a></td>
     </tr>
     <tr>
       <td>Sports City</td>
       <td>12 hasssa road, al barsha , JVC</td>
-      <td>1.44483300000002</td>
-      <td>25.2624725</td>
+      <td><label><input type="radio"   name="optradio"></label></td>
+      <td><a href="#">Delete</a></td>
     </tr>
       <tr>
         <td>Sports City</td>
         <td>12 hasssa road, al barsha , JVC</td>
-        <td>1.44483300000002</td>
-        <td>25.2624725</td>
-      </tr>
+        <td><label><input type="radio"   name="optradio"></label></td>
+        <td><a href="#">Delete</a></td>
+      </tr> </form>
   </tbody>
 </table>
   </div>
@@ -69,6 +69,34 @@
 <script src="../js/vendor/multiselect.js"></script>
 <script src="../js/app.js"></script>
 <script src="../js/vendor/gmaps.js"></script>
+<script>
+var map;
+$(document).ready(function(){
+  map = new GMaps({
+    el: '#map',
+    lat: -12.043333,
+    lng: -77.028333
+  });
+  $('#geocoding_form').submit(function(e){
+    e.preventDefault();
+    GMaps.geocode({
+      address: $('#address').val().trim(),
+      callback: function(results, status){
+        if(status=='OK'){
+          var latlng = results[0].geometry.location;
+          map.setCenter(latlng.lat(), latlng.lng());
+          map.addMarker({
+            lat: latlng.lat(),
+            lng: latlng.lng()
+          });
+          $action = $( "- <a href='#'>Add to list</a>'" )
+          $('#result p').append($('#address').val().trim(),latlng.lat(), latlng.lng(), $action);
+        }
+      }
+    });
+  });
+});
+</script>
   </body>
 </html>
 

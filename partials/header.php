@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="<?php echo $actual_link?>/css/foundation.min.css">
     <link rel="stylesheet" href="<?php echo $actual_link?>/css/app.css">
     <link rel="stylesheet" href="<?php echo $actual_link?>/css/helper.css">
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <link href="<?php echo $actual_link?>/css/icons.css" rel="stylesheet">
 
   </head>
   <body>

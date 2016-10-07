@@ -3,10 +3,10 @@
 <header class="header">
   <h1 class="headline">Welcome <small>Apple</small></h1>
   <ul class="header-subnav">
-    <li>   <a href="yourclubs.php" alt="Your Clubs"class="is-active">Your Clubs</a> </li>
+    <li>   <a href="yourclubs.php" alt="Your Clubs">Your Clubs</a> </li>
     <li>   <a href="yourstats.php" alt="Stats">Stats</a> </li>
     <li>   <a href="upcoming.php" alt="upcoming">Matchs</a> </li>
-    <li>   <a href="freeagent.php" alt="freeagent">Free Agent</a> </li>
+    <li>   <a href="freeagent.php" alt="freeagent" class="is-active">Free Agent</a> </li>
     <li>   <a class="signup footWhitefont" href="#" data-open="CreateClub">Create a Club</a> </li>
     <li>   <a href="#" alt="logout">logout</a> </li>
   </ul>

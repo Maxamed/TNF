@@ -9,8 +9,15 @@
     <li>   <a href="dash_history.php" alt="Inbox">Match History</a> </li>
     <li>  <a href="admin_match.php" >Setup a Match</a></li>
     <li>   <a href="#" alt="logout">logout</a> </li>
+    <li>   <a href="admin_club.php" alt="logout">Create a Club</a> </li>
   </ul>
 </header>
+<div class="row large-12" ><form action="results.php" >
+  <ul class="menu float-right">
+    <li><input type="search" placeholder="Find a club..."></li>
+    <li><button type="button" class="button">Search</button></li>
+  </ul></form>
+</div>
 <div class="row" style="margin:10px">
   <!-- club -->
   <div class="medium-3 column">
@@ -24,30 +31,88 @@
         <p>Pitchs: 3</p>
       </div>
       <div class="action">
-        <a href='#'>Edit</a>
+        <a href='#'>Delete Club</a>
       </div>
     </div>
   </div>
-  <!-- club -->
-  <!-- users -->
-  <div class="medium-6 columns end">
-    <div class="card">
-      <div class="content">
-        <span class="title">Robert Frost</span>
-        <p>Two roads diverged in a yellow wood,	 And sorry I could not travel both	 And be one traveler, long I stood	 And looked down one as far as I could	. To where it bent in the undergrowth;</p>
-      </div>
-      <div class="action">
-        <a href='#'>This is a link</a>
-        <a href='#'>This is a link</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- users -->
 </div>
+  <!-- club -->
+  <hr>
+  <!-- users -->
+  <div class="medium-3 columns end singleCard">
+    <div class="card">
+              <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
+      <div class="content">
+        <span class="title">Adbullahi Hussien</span>
+        <p>Position: RM</p>
+        <p>L:4-W:9-D:6</p>
+        <p>Scored:10 - Assists:4</p>
+      </div>
+      <div class="action">  <p><a href="mailto:Mohamed.jama@gmail.com">Mohamed.jama@gmail.com</a><br/><a href="http://zurb.com/ink/">0524968339</a><br/>
+          <a href='#' >Delete Player<span class="fi-x"></span></a></p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- users -->
+  <!-- users -->
+  <div class="medium-3 columns end singleCard">
+    <div class="card">
+              <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
+      <div class="content">
+        <span class="title">Adbullahi Hussien</span>
+        <p>Position: RM</p>
+        <p>L:4-W:9-D:6</p>
+        <p>Scored:10 - Assists:4</p>
+      </div>
+      <div class="action">  <p><a href="mailto:Mohamed.jama@gmail.com">Mohamed.jama@gmail.com</a><br/><a href="http://zurb.com/ink/">0524968339</a><br/>
+          <a href='#' >Delete Player<span class="fi-x"></span></a></p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- users -->
+  <!-- users -->
+  <div class="medium-3 columns end singleCard">
+    <div class="card">
+              <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
+      <div class="content">
+        <span class="title">Adbullahi Hussien</span>
+        <p>Position: RM</p>
+        <p>L:4-W:9-D:6</p>
+        <p>Scored:10 - Assists:4</p>
+      </div>
+      <div class="action">  <p><a href="mailto:Mohamed.jama@gmail.com">Mohamed.jama@gmail.com</a><br/><a href="http://zurb.com/ink/">0524968339</a><br/>
+          <a href='#' >Delete Player<span class="fi-x"></span></a></p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- users -->
+  <!-- users -->
+  <div class="medium-3 columns end singleCard">
+    <div class="card">
+              <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
+      <div class="content">
+        <span class="title">Adbullahi Hussien</span>
+        <p>Position: RM</p>
+        <p>L:4-W:9-D:6</p>
+        <p>Scored:10 - Assists:4</p>
+      </div>
+      <div class="action">  <p><a href="mailto:Mohamed.jama@gmail.com">Mohamed.jama@gmail.com</a><br/><a href="http://zurb.com/ink/">0524968339</a><br/>
+          <a href='#' >Delete Player<span class="fi-x"></span></a></p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- users --> 
+
+
     <?php include '../partials/modal.php'; ?>
     <script src="../js/vendor/jquery.js"></script>
-    <script src="../js/vendor/foundation.min.js"></script> 
+    <script src="../js/vendor/foundation.min.js"></script>
+    <script src="../js/vendor/datepicker.js"></script>
+    <script src="../js/vendor/multiselect.js"></script>
     <script src="../js/app.js"></script>
   </body>
 </html>
