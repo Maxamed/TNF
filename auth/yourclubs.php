@@ -28,7 +28,7 @@
           <p>Pitchs: 3</p>
         </div>
         <div class="action">
-          <a href='#'>View Club</a><br/><a href='#'>Leave Club</a>
+          <a href='club.php'>View Club</a><br/><a href='#'>Leave Club</a>
         </div>
       </div>
     </div>
@@ -45,7 +45,7 @@
           <p>Pitchs: 3</p>
         </div>
         <div class="action">
-          <a href='#'>View Club</a><br/><a href='#'>Leave Club</a>
+          <a href='club.php'>View Club</a><br/><a href='#'>Leave Club</a>
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@
           <p>Pitchs: 3</p>
         </div>
         <div class="action">
-          <a href='#'>View Club</a><br/><a href='#'>Leave Club</a>
+          <a href='club.php'>View Club</a><br/><a href='#'>Leave Club</a>
         </div>
       </div>
     </div>

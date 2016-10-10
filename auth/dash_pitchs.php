@@ -90,7 +90,7 @@ $(document).ready(function(){
             lat: latlng.lat(),
             lng: latlng.lng()
           });
-          $action = $( "- <a href='#'>Add to list</a>'" )
+          $action = "- <a href='#'>Add to list</a>";
           $('#result p').append($('#address').val().trim(),latlng.lat(), latlng.lng(), $action);
         }
       }

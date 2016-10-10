@@ -24,8 +24,8 @@
         <p>Position: RM</p>
       </div>
       <div class="action">
-        <a href='#' >Accept<span class="fi-check"></span></a>
-        <a href='#' >Reject<span class="fi-x"></span></a>
+        <a data-open="AcceptPlayer" >Accept<span class="fi-check"></span></a>
+        <a data-open="RejectPlayer"  >Reject<span class="fi-x"></span></a>
       </div>
     </div>
   </div>
@@ -38,8 +38,8 @@
         <p>Position: RM</p>
       </div>
       <div class="action">
-        <a href='#' >Accept<span class="fi-check"></span></a>
-        <a href='#' >Reject<span class="fi-x"></span></a>
+        <a data-open="AcceptPlayer" >Accept<span class="fi-check"></span></a>
+        <a data-open="RejectPlayer"  >Reject<span class="fi-x"></span></a>
       </div>
     </div>
   </div>
@@ -52,8 +52,8 @@
         <p>Position: RM</p>
       </div>
       <div class="action">
-        <a href='#' >Accept<span class="fi-check"></span></a>
-        <a href='#' >Reject<span class="fi-x"></span></a>
+        <a data-open="AcceptPlayer" >Accept<span class="fi-check"></span></a>
+        <a data-open="RejectPlayer"  >Reject<span class="fi-x"></span></a>
       </div>
     </div>
   </div>
@@ -66,8 +66,8 @@
         <p>Position: RM</p>
       </div>
       <div class="action">
-        <a href='#' >Accept<span class="fi-check"></span></a>
-        <a href='#' >Reject<span class="fi-x"></span></a>
+        <a data-open="AcceptPlayer" >Accept<span class="fi-check"></span></a>
+        <a data-open="RejectPlayer"  >Reject<span class="fi-x"></span></a>
       </div>
     </div>
   </div>
@@ -80,13 +80,28 @@
         <p>Position: RM</p>
       </div>
       <div class="action">
-        <a href='#' >Accept<span class="fi-check"></span></a>
-        <a href='#' >Reject<span class="fi-x"></span></a>
+        <a data-open="AcceptPlayer" >Accept<span class="fi-check"></span></a>
+        <a data-open="RejectPlayer"  >Reject<span class="fi-x"></span></a>
       </div>
     </div>
   </div>
   <!-- users -->
 </div>
+
+<!-- popup -->
+<div class="small reveal"  class="reveal" id="AcceptPlayer" data-reveal >
+  <p>John frost been added</p>
+  <p>New addition to the team, your club is growing</p>
+</div>
+<!-- popup -->
+
+<!-- popup -->
+<div class="tiny reveal"  class="reveal" id="RejectPlayer" data-reveal >
+  <p>John frost been Rejected</p>
+  <p>Oh well, plenty of fish in the sea</p>
+</div>
+<!-- popup -->
+
 <div class="row cardsList">
   <div class="listHeader" style="">
       <div>RSVP</div>
@@ -103,8 +118,8 @@
         <p>Scored:10 - Assists:4</p>
       </div>
       <div class="action">
-        <a href='#' >In<span class="fi-check"></span></a>
-        <a href='#' >Not In<span class="fi-x"></span></a>
+        <a data-open="PlayerIn" >In<span class="fi-check"></span></a>
+        <a data-open="PlayerOut" >Not In<span class="fi-x"></span></a>
       </div>
       </div>
     </div>
@@ -121,30 +136,42 @@
           <p>Scored:10 - Assists:4</p>
         </div>
         <div class="action">
-          <a href='#' >In<span class="fi-check"></span></a>
-          <a href='#' >Not In<span class="fi-x"></span></a>
+          <a data-open="PlayerIn" >In<span class="fi-check"></span></a>
+          <a data-open="PlayerOut" >Not In<span class="fi-x"></span></a>
         </div>
         </div>
       </div>
     <!-- users -->
-      <!-- users -->
-      <div class="medium-3 columns end singleCard">
-        <div class="card">
-                  <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
-          <div class="content">
-            <span class="title">Adbullahi Hussien</span>
-            <p>Position: RM</p>
-            <p>L:4-W:9-D:6</p>
-            <p>Scored:10 - Assists:4</p>
-          </div>
-          <div class="action">
-            <a href='#' >In<span class="fi-check"></span></a>
-            <a href='#' >Not In<span class="fi-x"></span></a>
-          </div>
-          </div>
+    <!-- users -->
+    <div class="medium-3 columns end singleCard">
+      <div class="card">
+                <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
+        <div class="content">
+          <span class="title">Adbullahi Hussien</span>
+          <p>Position: RM</p>
+          <p>L:4-W:9-D:6</p>
+          <p>Scored:10 - Assists:4</p>
         </div>
-      <!-- users -->
+        <div class="action">
+          <a data-open="PlayerIn" >In<span class="fi-check"></span></a>
+          <a data-open="PlayerOut" >Not In<span class="fi-x"></span></a>
+        </div>
+        </div>
+      </div>
+    <!-- users -->
+    <!-- popup -->
+    <div class="small reveal"  class="reveal" id="PlayerIn" data-reveal >
+      <p>John frost will play this week</p>
+      <p>He got good record! lets see what he can do.</p>
+    </div>
+    <!-- popup -->
 
+    <!-- popup -->
+    <div class="tiny reveal"  class="reveal" id="PlayerOut" data-reveal >
+      <p>John frost is Staying at home this week</p>
+      <p>Lets give him a game next week though</p>
+    </div>
+    <!-- popup -->
 </div>
     <?php include '../partials/modal.php'; ?>
     <script src="../js/vendor/jquery.js"></script>

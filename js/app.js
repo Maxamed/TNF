@@ -12,8 +12,5 @@ $(document).foundation();
 			pickTime: false
 		});
 	$('select[multiple]').multiselect({
-	    columns: 3,
-	    texts: {
-	        placeholder: 'Select Players'
-	    }
+	    columns: 3
 	});
