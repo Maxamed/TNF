@@ -15,7 +15,7 @@
 
 <!-- modal create a match content -->
 
-  <div class="row" style="margin:20px">
+  <div class="row" style="margin:20px;position:relative">
     <div class="small-12 columns auth-plain " style="border:4px solid white;padding:20px;background: url(../img/bg.svg) repeat;background-color: white!important;">
       <div class="signup-panel">
         <!-- create  match-->
