@@ -8,6 +8,7 @@
     <li>   <a href="dash_pitchs.php" alt="Inbox">Pitchs</li>
     <li>   <a href="dash_history.php" alt="Inbox" class="is-active">Match History</a> </li>
     <li>  <a href="admin_match.php" >Setup a Match</a></li>
+    <li>   <a href="profile.php" alt="profile">Profile</a> </li>
     <li>   <a href="#" alt="logout">logout</a> </li>
   </ul>
 </header>

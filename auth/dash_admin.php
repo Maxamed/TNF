@@ -18,7 +18,10 @@
     <li><button type="button" class="button">Search</button></li>
   </ul></form>
 </div>
-<div class="row" style="margin:10px">
+<div class="row cardsList">
+  <div class="listHeader" style="">
+      <div>Your Club</div>
+  </div>
   <!-- club -->
   <div class="medium-3 column">
     <div class="card">
@@ -38,75 +41,114 @@
 </div>
   <!-- club -->
   <hr>
-  <!-- users -->
-  <div class="medium-3 columns end singleCard">
-    <div class="card">
-              <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
-      <div class="content">
-        <span class="title">Adbullahi Hussien</span>
-        <p>Position: RM</p>
-        <p>L:4-W:9-D:6</p>
-        <p>Scored:10 - Assists:4</p>
-      </div>
-      <div class="action">  <p><a href="mailto:Mohamed.jama@gmail.com">Mohamed.jama@gmail.com</a><br/><a href="http://zurb.com/ink/">0524968339</a><br/>
-          <a href='#' >Delete Player<span class="fi-x"></span></a></p>
-      </div>
-      </div>
+  <div class="row cardsList" >
+    <div class="listHeader" style="">
+        <div>Club Squad</div>
     </div>
-  </div>
-  <!-- users -->
-  <!-- users -->
-  <div class="medium-3 columns end singleCard">
-    <div class="card">
-              <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
-      <div class="content">
-        <span class="title">Adbullahi Hussien</span>
-        <p>Position: RM</p>
-        <p>L:4-W:9-D:6</p>
-        <p>Scored:10 - Assists:4</p>
-      </div>
-      <div class="action">  <p><a href="mailto:Mohamed.jama@gmail.com">Mohamed.jama@gmail.com</a><br/><a href="http://zurb.com/ink/">0524968339</a><br/>
-          <a href='#' >Delete Player<span class="fi-x"></span></a></p>
-      </div>
-      </div>
-    </div>
-  </div>
-  <!-- users -->
-  <!-- users -->
-  <div class="medium-3 columns end singleCard">
-    <div class="card">
-              <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
-      <div class="content">
-        <span class="title">Adbullahi Hussien</span>
-        <p>Position: RM</p>
-        <p>L:4-W:9-D:6</p>
-        <p>Scored:10 - Assists:4</p>
-      </div>
-      <div class="action">  <p><a href="mailto:Mohamed.jama@gmail.com">Mohamed.jama@gmail.com</a><br/><a href="http://zurb.com/ink/">0524968339</a><br/>
-          <a href='#' >Delete Player<span class="fi-x"></span></a></p>
-      </div>
-      </div>
-    </div>
-  </div>
-  <!-- users -->
-  <!-- users -->
-  <div class="medium-3 columns end singleCard">
-    <div class="card">
-              <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
-      <div class="content">
-        <span class="title">Adbullahi Hussien</span>
-        <p>Position: RM</p>
-        <p>L:4-W:9-D:6</p>
-        <p>Scored:10 - Assists:4</p>
-      </div>
-      <div class="action">  <p><a href="mailto:Mohamed.jama@gmail.com">Mohamed.jama@gmail.com</a><br/><a href="http://zurb.com/ink/">0524968339</a><br/>
-          <a href='#' >Delete Player<span class="fi-x"></span></a></p>
-      </div>
-      </div>
-    </div>
-  </div>
-  <!-- users --> 
 
+     <!-- users -->
+     <div class="medium-3 columns end singleCard">
+       <div class="card">
+         <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
+         <div class="content">
+           <span class="title">Adbullahi Hussien</span>
+           <p>Position: RM</p>
+           <p>L:4-W:9-D:6</p>
+           <p>Scored:10 - Assists:4</p>
+         </div>
+           <div class="action">
+             <p><a href="mailto:Mohamed.jama@gmail.com">Mohamed.jama@gmail.com</a><br/><a href="http://zurb.com/ink/">0524968339</a><br/>
+             <a href='#' >Delete Player<span class="fi-x"></span></a></p>
+           </div>
+       </div>
+     </div>
+     <!-- users -->
+     <!-- users -->
+     <div class="medium-3 columns end singleCard">
+       <div class="card">
+         <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
+         <div class="content">
+           <span class="title">Adbullahi Hussien</span>
+           <p>Position: RM</p>
+           <p>L:4-W:9-D:6</p>
+           <p>Scored:10 - Assists:4</p>
+         </div>
+           <div class="action">
+             <p><a href="mailto:Mohamed.jama@gmail.com">Mohamed.jama@gmail.com</a><br/><a href="http://zurb.com/ink/">0524968339</a><br/>
+             <a href='#' >Delete Player<span class="fi-x"></span></a></p>
+           </div>
+       </div>
+     </div>
+     <!-- users -->
+     <!-- users -->
+     <div class="medium-3 columns end singleCard">
+       <div class="card">
+         <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
+         <div class="content">
+           <span class="title">Adbullahi Hussien</span>
+           <p>Position: RM</p>
+           <p>L:4-W:9-D:6</p>
+           <p>Scored:10 - Assists:4</p>
+         </div>
+           <div class="action">
+             <p><a href="mailto:Mohamed.jama@gmail.com">Mohamed.jama@gmail.com</a><br/><a href="http://zurb.com/ink/">0524968339</a><br/>
+             <a href='#' >Delete Player<span class="fi-x"></span></a></p>
+           </div>
+       </div>
+     </div>
+     <!-- users -->
+     <!-- users -->
+     <div class="medium-3 columns end singleCard">
+       <div class="card">
+         <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
+         <div class="content">
+           <span class="title">Adbullahi Hussien</span>
+           <p>Position: RM</p>
+           <p>L:4-W:9-D:6</p>
+           <p>Scored:10 - Assists:4</p>
+         </div>
+           <div class="action">
+             <p><a href="mailto:Mohamed.jama@gmail.com">Mohamed.jama@gmail.com</a><br/><a href="http://zurb.com/ink/">0524968339</a><br/>
+             <a href='#' >Delete Player<span class="fi-x"></span></a></p>
+           </div>
+       </div>
+     </div>
+     <!-- users -->
+     <!-- users -->
+     <div class="medium-3 columns end singleCard">
+       <div class="card">
+         <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
+         <div class="content">
+           <span class="title">Adbullahi Hussien</span>
+           <p>Position: RM</p>
+           <p>L:4-W:9-D:6</p>
+           <p>Scored:10 - Assists:4</p>
+         </div>
+           <div class="action">
+             <p><a href="mailto:Mohamed.jama@gmail.com">Mohamed.jama@gmail.com</a><br/><a href="http://zurb.com/ink/">0524968339</a><br/>
+             <a href='#' >Delete Player<span class="fi-x"></span></a></p>
+           </div>
+       </div>
+     </div>
+     <!-- users -->
+     <!-- users -->
+     <div class="medium-3 columns end singleCard">
+       <div class="card">
+         <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
+         <div class="content">
+           <span class="title">Adbullahi Hussien</span>
+           <p>Position: RM</p>
+           <p>L:4-W:9-D:6</p>
+           <p>Scored:10 - Assists:4</p>
+         </div>
+           <div class="action">
+             <p><a href="mailto:Mohamed.jama@gmail.com">Mohamed.jama@gmail.com</a><br/><a href="http://zurb.com/ink/">0524968339</a><br/>
+             <a href='#' >Delete Player<span class="fi-x"></span></a></p>
+           </div>
+       </div>
+     </div>
+     <!-- users -->
+  </div>
 
     <?php include '../partials/modal.php'; ?>
     <script src="../js/vendor/jquery.js"></script>

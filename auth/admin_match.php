@@ -8,6 +8,7 @@
     <li>   <a href="dash_pitchs.php" alt="Inbox">Pitchs</li>
     <li>   <a href="dash_history.php" alt="Inbox">Match History</a> </li>
     <li>  <a href="admin_match.php" class="is-active" >Setup a Match</a></li>
+    <li>   <a href="profile.php" alt="profile">Profile</a> </li>
     <li>   <a href="#" alt="logout">logout</a> </li>
   </ul>
 </header>
@@ -15,8 +16,8 @@
 <!-- modal create a match content -->
 
   <div class="row" style="margin-top:20px">
-    <div class="medium-6 columns auth-plain center" style="border:4px solid white;padding:20px;background: url(../img/bg.svg) repeat;background-color: white!important;">
-      <div class="signup-panel left-solid">
+    <div class="small-12 columns auth-plain " style="border:4px solid white;padding:20px;background: url(../img/bg.svg) repeat;background-color: white!important;">
+        <div class="signup-panel left-solid">
         <!-- create  match-->
             <div id="contactForm" class="">
               <form id="myForm" method="post" data-abide="">
