@@ -3,6 +3,8 @@
 body {
     background: url(../img/wallpaper.png) repeat;
 }
+
+a span {margin: 0 5px;}
 .menu-icon {
     outline: none
 }
